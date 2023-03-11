@@ -30,14 +30,14 @@ img{
     align-items: center;
     flex-direction: column;
 }
-h4{
+.profile h4{
     padding-top: 18px;
-    color: var(--white);
+    color: #ccc;
     font-family: 'outfitRegular';
     font-size: 13px;
     text-align: center;
 }
-h1{
+.profile h1{
     text-align: center;
     color: transparent;
     padding-top: 20px;
@@ -47,4 +47,19 @@ h1{
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
     font-size: 2.5rem;
 
+}
+.cv_btn{
+    padding: 15px 20px;
+    background: #1A1A1A;
+    margin-top: 20px;
+    border: 2px solid;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+.cv_btn:hover{
+    transform: scale(.9);
+    transition: all 500ms ease;
+}
+.cv_btn a {
+    color: #ccc;
 }

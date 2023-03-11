@@ -1,0 +1,19 @@
+.skill_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background: #1A1A1A; */
+    padding: 20px;
+}
+.skill_container img{
+    width: 120px;
+    max-width: 100%;
+    filter: grayscale(1);
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+.skill_container img:hover{
+    filter: grayscale(0);
+    transition: all 500ms ease;
+}

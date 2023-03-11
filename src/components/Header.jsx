@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import Nav from './Nav'
 import Profile from './Profile'
+import Skills from './Skills'
 
 
 const Header = () => {
@@ -10,6 +11,7 @@ const Header = () => {
       <header>
           <Nav/>
           <Profile/>
+          <Skills/>
       </header>
     </div>
   )
