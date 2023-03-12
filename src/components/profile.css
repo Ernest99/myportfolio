@@ -21,7 +21,13 @@ img{
     
 }
 .dp img{
+    filter: grayscale(0);
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+.dp img:hover{
     filter: grayscale(1);
+    transition: all 500ms ease;
 }
 .profile{
     height: 80vh;
@@ -36,6 +42,7 @@ img{
     font-family: 'outfitRegular';
     font-size: 13px;
     text-align: center;
+    letter-spacing: 1.5px;
 }
 .profile h1{
     text-align: center;
