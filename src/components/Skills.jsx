@@ -1,21 +1,34 @@
 import React from 'react'
 import './skills.css'
-import { data } from '../data'
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/swiper.min.css';
+
+import { data } from '../utils/data'
+
+const slides = data.map(({id,img}) => (
+  <SwiperSlide key={id}>
+    <div className="skill_container">
+    <div className="swiper-item">
+    <img src={img} alt="" />
+    </div>
+    </div>
+  </SwiperSlide>
+));
+
 const Skills = () => {
   return (
-    <div>
-      <div className="skill_container">
-       {
-        data.map((({id,img})=>{
-            return(
-                <div key={id}>
-                    <img src={img} alt="" />
-                </div>
-            )
-        }))
-       }
-      </div>
-    </div>
+    
+    <Swiper
+      spaceBetween={16}
+      slidesPerView={4}
+      grabCursor={true}
+      loop={true}
+      autoplay={true}
+    >
+      {slides}
+    </Swiper>
   )
 }
 
