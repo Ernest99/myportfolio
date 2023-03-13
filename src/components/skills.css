@@ -6,10 +6,11 @@
     gap: 18px;
     /* background: #1A1A1A; */
     padding: 20px;
-    margin-top: 18px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 .skill_container img{
-    width: 105px;
+    width: 110px;
     max-width: 100%;
     filter: grayscale(0);
     transition: all 500ms ease;
@@ -18,4 +19,11 @@
 .skill_container img:hover{
     filter: grayscale(1);
     transition: all 500ms ease;
+}
+.swiper-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #fff; */
 }
