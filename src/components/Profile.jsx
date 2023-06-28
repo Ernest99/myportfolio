@@ -1,6 +1,6 @@
 import React from 'react'
 import './profile.css'
-import myImg from '../assets/images/me.jpeg'
+import myImg from '../assets/images/dp_2.jpg'
 import Btn from './Btn'
 import {HiDownload} from 'react-icons/hi'
 import { motion } from "framer-motion"
@@ -20,7 +20,7 @@ const Profile = () => {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transtion = {transtion}
-               >Hi, I'm Ghansah Ernest 👋</motion.h4>
+               >Hi, I'm Mandy 👋</motion.h4>
                <motion.h1
                  initial={{ opacity: 0 }}
                  whileInView={{ opacity: 1 }}

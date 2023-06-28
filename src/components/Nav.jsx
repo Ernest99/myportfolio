@@ -22,9 +22,9 @@ const Nav = () => {
             <a href="./"> <RiGithubFill className='socialIcon'/> </a>
         </div>
         <div className="right">
-            <a href="./">LinkedIn /</a>
+            <a href="./">Dribbble /</a>
             <a href="./">Instagram /</a>
-            <a href="./">GitHub</a>
+            <a href="./">LinkedIn</a>
         </div>
       </nav>
       <hr />
