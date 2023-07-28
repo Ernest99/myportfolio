@@ -39,7 +39,8 @@ img{
 }
 .profile h4{
     padding-top: 18px;
-    color: #ccc;
+    /* color: #ccc; */
+    color: #111;
     font-family: 'outfitRegular';
     font-size: 13px;
     text-align: center;

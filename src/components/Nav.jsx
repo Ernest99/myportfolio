@@ -19,14 +19,14 @@ const Nav = () => {
             <span>Get in touch</span>
         </div>
         <div className="middle">
-            <a href="./"> <RiDribbbleFill className='socialIcon'/> </a>
-            <a href="./"> <RiInstagramFill className='socialIcon'/></a>
-            <a href="./"> <RiLinkedinFill className='socialIcon'/> </a>
+            <a href="https://dribbble.com/ellymany"> <RiDribbbleFill className='socialIcon'/> </a>
+            <a href="https://instagram.com/lady_mandyella?igshid=OGQ5ZDc2ODk2ZA=="> <RiInstagramFill className='socialIcon'/></a>
+            <a href="https://www.linkedin.com/in/amanda-emmanuella-dzegblor-196b2618b"> <RiLinkedinFill className='socialIcon'/> </a>
         </div>
         <div className="right">
-            <a href="./">Dribbble /</a>
-            <a href="./">Instagram /</a>
-            <a href="./">LinkedIn</a>
+            <a href="https://dribbble.com/ellymany">Dribbble /</a>
+            <a href="https://instagram.com/lady_mandyella?igshid=OGQ5ZDc2ODk2ZA==">Instagram /</a>
+            <a href="https://www.linkedin.com/in/amanda-emmanuella-dzegblor-196b2618b">LinkedIn</a>
         </div>
       </nav>
       <hr />

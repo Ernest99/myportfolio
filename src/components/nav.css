@@ -22,7 +22,8 @@ nav{
     font-size: 20px;
 }
 .socialIcon{
-    color: var(--white)
+    /* color: var(--white); */
+    color: #111;
 }
 .middle{
     display: none;
@@ -40,11 +41,13 @@ nav{
     margin-right: 10px;
 }
 .left span{
-    color: var(--white);
+    /* color: var(--white); */
+    color: #111;
 }
 .right a{
     margin-right: 10px;
-    color: var(--white);
+    /* color: var(--white); */
+    color: #111;
 }
 hr{
     border: 0;
