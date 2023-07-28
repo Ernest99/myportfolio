@@ -15,8 +15,8 @@ const serviceData = [
     },
     {
         id: 2,
-        title: 'Web App',
-        msg: 'converting concepts into outstanding web and mobile app experiences.',
+        title: 'Graphics',
+        msg: 'converting concepts into outstanding visual and graphic design.',
         icon: <RiWebcamFill/>
     },
     {

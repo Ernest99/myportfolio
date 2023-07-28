@@ -3,7 +3,8 @@ import Html from '../assets/images/html.png'
 import Css from '../assets/images/css.png'
 import Js from '../assets/images/js.png'
 import Git from '../assets/images/git.png'
-import ReactImg from '../assets/images/react.png'
+// import ReactImg from '../assets/images/react.png'
+import Psd from '../assets/images/photoshop.png'
 import Bootstrap from '../assets/images/bootstrap.png'
 
 export const data = [
@@ -21,7 +22,7 @@ export const data = [
     },
     {
         id: 4,
-        img: ReactImg
+        img: Psd
     },
     {
         id: 5,
