@@ -2,7 +2,27 @@
     font-family: 'outfit';
     src: url('../assets/fonts/Outfit-Medium.ttf');
 }
+/* nav scroll effect */
+/* Navbar.css */
 
+.transparent-navbar {
+    background: transparent;
+    transition: background-color 0.3s;
+  }
+  
+  .solid-navbar {
+    background: #333; /* Change this color to the solid color you want */
+    transition: background-color 0.3s;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Add any additional styles for a sticky navbar */
+  }
+  
 :root{
     --white: #F0F0F0;
 }
@@ -41,13 +61,13 @@ nav{
     margin-right: 10px;
 }
 .left span{
-    /* color: var(--white); */
-    color: #111;
+    color: var(--white);
+    /* color: #111; */
 }
 .right a{
     margin-right: 10px;
-    /* color: var(--white); */
-    color: #111;
+    color: var(--white);
+    /* color: #111; */
 }
 hr{
     border: 0;

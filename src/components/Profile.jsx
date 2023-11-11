@@ -1,9 +1,10 @@
 import React from 'react'
 import './profile.css'
-import myImg from '../assets/images/dp_2.jpg'
-import Btn from './Btn'
-import {HiDownload} from 'react-icons/hi'
+import myImg from '../assets/images/dp_3.jpeg'
+// import Btn from './Btn'
+// import {HiDownload} from 'react-icons/hi'
 import { motion } from "framer-motion"
+import Circle from './Circle'
 // import { data } from '../data'
 
 const Profile = () => {
@@ -11,6 +12,7 @@ const Profile = () => {
 
   return (
     <div>
+        <Circle/>
         <div className="profile_container">
             <div className="profile">
                <div className="dp">
@@ -26,7 +28,7 @@ const Profile = () => {
                  whileInView={{ opacity: 1 }}
                  transtion = {transtion}
                >I Design Stunning, <br /> brands, App and Web Interfaces.</motion.h1>
-              <Btn text='Request CV' icon={<HiDownload/>}/>
+              {/* <Btn text='Request CV' icon={<HiDownload/>}/> */}
             </div>
         </div>
         

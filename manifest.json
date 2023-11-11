@@ -14,7 +14,7 @@
             "purpose": "any maskable"
         }
     ],
-    "start_url": ".",
+    "start_url": "./index.html",
     "theme_color": "#000",
     "background_color": "#000",
     "display_override": ["window-control-overlay", "minimal-ui"],

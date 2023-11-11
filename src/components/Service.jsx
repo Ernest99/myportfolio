@@ -6,6 +6,7 @@ import {SiVisualstudiocode} from 'react-icons/si'
 import {FiFigma} from 'react-icons/fi'
 import {RiComputerFill} from 'react-icons/ri'
 import {RiWebcamFill} from 'react-icons/ri'
+import Circle from './Circle'
 const serviceData = [
     {
         id: 1,
@@ -15,8 +16,8 @@ const serviceData = [
     },
     {
         id: 2,
-        title: 'Graphics',
-        msg: 'converting concepts into outstanding visual and graphic design.',
+        title: 'Marketing',
+        msg: 'Marketing concepts into outstanding visual and graphic design.',
         icon: <RiWebcamFill/>
     },
     {
@@ -36,6 +37,7 @@ const serviceData = [
 const Service = () => {
   return (
     <div>
+        <Circle/>
         <div className="s-wrapper">
             <div className="s-title">
                 <h1>Work together with brands and agencies <br /> to produce significant outcomes</h1>
