@@ -3,7 +3,7 @@ import './circle.css'
 
 const Circle = () => {
     useEffect(() => {
-        const color = ['red', 'green', 'blue', 'yellow', 'orange'];
+        const color = ['#50eb9f', '#ffffff'];
     
         const animateCircle = (event) => {
           const circle = document.createElement('div');

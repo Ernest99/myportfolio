@@ -3,15 +3,19 @@
     src: url('./assets/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
 }
 
+:root{
+    --green: #50eb9f;
+    --blacK: #0c0c0c;
+}
 .project_wrapper h1{
     text-align: center;
     text-wrap: balance;
-    color: transparent;
+    color: var(--green);
     padding-top: 20px;
     font-family: 'outfitRegular';
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text;
     background-clip: text;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    background-image: linear-gradient(to right, #ccc, #333, #ccc); */
     font-size: 2.5rem;
 }
 .s-title{
@@ -27,6 +31,13 @@
     flex-wrap: wrap;
    
 }
+.p-details h3{
+    color: #fff;
+    font-size: 5px;
+}
+.p-title{
+    font-size: 20px !important;
+}
 .p-item{
     width: 350px;
     background: #1A1A1A;
@@ -34,9 +45,28 @@
     border-radius: 5px;
     cursor: pointer;
 }
+.view_btn{
+    padding: 10px 25px;
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--blacK);
+    background: var(--green);
+    border-radius: 3px;
+}
+.image_container{
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 500ms ease;
+}
+.image_container:hover img{
+    transform: scale(1.1);
+    transition: 500ms ease;
+    width: 100%;
+}
 .item img{
     width: 100%;
     object-fit: cover;
+    transition: 500ms ease;
 }
 .p-details{
     color: #6C6C6C;

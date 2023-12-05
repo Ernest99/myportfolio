@@ -8,12 +8,12 @@
 }
 .s-title > h1{
     text-align: center;
-    color: transparent;
+    color: #50eb9f;
     padding-top: 20px;
     font-family: 'outfitLight';
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text;
     background-clip: text;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    background-image: linear-gradient(to right, #ccc, #333, #ccc); */
     font-size: 2.0rem;
     margin-top: 20px;
     
@@ -41,7 +41,7 @@
     cursor: pointer;
 }
 .s-details{
-    color: #6C6C6C;
+    color: #50eb9f;
     padding-bottom: 20px;
 }
 .s-details > :nth-child(1){

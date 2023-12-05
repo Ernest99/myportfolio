@@ -50,7 +50,19 @@ const projectData = [
     title: 'Jeep Poster Design',
     link: 'https://www.figma.com/file/BMcvuuHIQwBpjawM9TbwkK/Developer-3?type=design&node-id=0%3A1&mode=design&t=qXOQmBsfr81sBTLd-1',
     img: Jeep
-  }
+  },
+  {
+    id: 8,
+    title: 'Food Design Flyer',
+    link: 'https://www.figma.com/file/BMcvuuHIQwBpjawM9TbwkK/Developer-3?type=design&node-id=0%3A1&mode=design&t=qXOQmBsfr81sBTLd-1',
+    img: Food1
+  },
+  {
+    id: 9,
+    title: 'Food Poster Design',
+    link: 'https://www.figma.com/file/BMcvuuHIQwBpjawM9TbwkK/Developer-3?type=design&node-id=0%3A1&mode=design&t=qXOQmBsfr81sBTLd-1',
+    img: Food2
+  },
 ]
 
 
@@ -61,7 +73,7 @@ const Project = () => {
     <div>
       <div className="project_wrapper">
         <div className="project_caption">
-          <h1>Project I have worked on for <br/> my happy and trusted clients</h1>
+          <h1>Project I have worked on</h1>
         </div>
         <div className="p-items">
                {
@@ -69,9 +81,11 @@ const Project = () => {
                     return(
                         <div className="p-item" key={id}>
                             <div className="p-details">
-                            <img src={img} />
-                            <h3>{title}</h3>
-                            <a href={link}>View</a>
+                              <div className="image_container">
+                                <img src={img} />
+                              </div>
+                            <h3 className="p-title">{title}</h3>
+                            <a className='view_btn' href={link}>View</a>
                             </div>
                         </div>
                     )

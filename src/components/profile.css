@@ -2,6 +2,11 @@
     font-family: 'outfitRegular';
     src: url(../assets/fonts/Outfit-Regular.ttf);
 }
+:root{
+    --green: #50eb9f;
+    --black: #0c0c0c;
+}
+
 img{
     width: 100%;
 }
@@ -39,7 +44,7 @@ img{
 }
 .profile h4{
     padding-top: 18px;
-    color: #ccc;
+    color: #fff;
     /* color: #111; */
     font-family: 'outfitRegular';
     font-size: 13px;
@@ -48,12 +53,12 @@ img{
 }
 .profile h1{
     text-align: center;
-    color: transparent;
+    color: var(--green);
     padding-top: 20px;
     font-family: 'outfitRegular';
     -webkit-background-clip: text;
     background-clip: text;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    background-image: linear-gradient(to right, var(--green), #333, var(--green));
     font-size: 2.5rem;
 
 }

@@ -25,6 +25,8 @@
   
 :root{
     --white: #F0F0F0;
+    --black: #0c0c0c;
+    --green: #50eb9f;
 }
 
 *{
@@ -61,12 +63,12 @@ nav{
     margin-right: 10px;
 }
 .left span{
-    color: var(--white);
+    color: var(--green);
     /* color: #111; */
 }
 .right a{
     margin-right: 10px;
-    color: var(--white);
+    color: var(--green);
     /* color: #111; */
 }
 hr{
