@@ -5,7 +5,6 @@ import Profile from './Profile'
 import Skills from './Skills'
 import Service from './Service'
 import Project from './Project'
-import Circle from './Circle'
 import Contact from './Contact'
 
 
@@ -13,7 +12,6 @@ const Header = () => {
   return (
     <div>
       <header>
-          <Circle/>
           <Nav/>
           <Profile/>
           <Skills/>

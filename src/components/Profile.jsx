@@ -4,7 +4,6 @@ import myImg from '../assets/images/dp_3.jpeg'
 // import Btn from './Btn'
 // import {HiDownload} from 'react-icons/hi'
 import { motion } from "framer-motion"
-import Circle from './Circle'
 // import { data } from '../data'
 
 const Profile = () => {
@@ -12,7 +11,6 @@ const Profile = () => {
 
   return (
     <div>
-        <Circle/>
         <div className="profile_container">
             <div className="profile">
                <div className="dp">
