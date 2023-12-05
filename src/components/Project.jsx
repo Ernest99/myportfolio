@@ -7,6 +7,7 @@ import Deaflogo from '../assets/images/deaflogo.jpg'
 import Food1 from '../assets/images/food1.jpg'
 import Food2 from '../assets/images/food.jpg'
 import Jeep from '../assets/images/jeep.jpg'
+import Cream from '../assets/images/cream_design.jpg'
 
 const projectData = [
   {
@@ -59,9 +60,9 @@ const projectData = [
   },
   {
     id: 9,
-    title: 'Food Poster Design',
-    link: 'https://www.figma.com/file/BMcvuuHIQwBpjawM9TbwkK/Developer-3?type=design&node-id=0%3A1&mode=design&t=qXOQmBsfr81sBTLd-1',
-    img: Food2
+    title: 'Cosmetic Mockup Design',
+    link: 'https://www.figma.com/file/KObWNHi73HaKnw2uhDp4Aj/Developer-5?type=design&node-id=0%3A1&mode=design&t=WizNfQwBNGINeJ4k-1',
+    img: Cream
   },
 ]
 
