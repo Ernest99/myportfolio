@@ -20,12 +20,12 @@ const Nav = () => {
         </div>
         <div className="middle">
             <a href="https://dribbble.com/ellymany"> <RiDribbbleFill className='socialIcon'/> </a>
-            <a href="https://instagram.com/lady_mandyella?igshid=OGQ5ZDc2ODk2ZA=="> <RiInstagramFill className='socialIcon'/></a>
+            <a href="https://instagram.com/dzemandy_uiux?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr"> <RiInstagramFill className='socialIcon'/></a>
             <a href="https://www.linkedin.com/in/amanda-emmanuella-dzegblor-196b2618b"> <RiLinkedinFill className='socialIcon'/> </a>
         </div>
         <div className="right">
             <a href="https://dribbble.com/ellymany">Dribbble /</a>
-            <a href="https://instagram.com/lady_mandyella?igshid=OGQ5ZDc2ODk2ZA==">Instagram /</a>
+            <a href="https://instagram.com/dzemandy_uiux?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr">Instagram /</a>
             <a href="https://www.linkedin.com/in/amanda-emmanuella-dzegblor-196b2618b">LinkedIn</a>
         </div>
       </nav>

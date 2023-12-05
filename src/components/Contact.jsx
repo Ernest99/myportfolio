@@ -28,22 +28,22 @@ const Contact = () => {
           <div className="contact_r item">
             <div className="contact_info">
                 <div className="contact_info_box">
-                  <MdEmail />
+                  <MdEmail className='contact_icon' />
                   <h3>Email</h3>
                   <h2>dzegbloramanda@gmail.com</h2>
                   <a href="mailto:dzegbloramanda@gmail.com">Send an Email</a>
                 </div>
                 <div className="contact_info_box">
-                  <MdOutlineWhatsapp />
+                  <MdOutlineWhatsapp className='contact_icon' />
                   <h3>Whatsapp</h3>
                   <h2>+233541943017</h2>
                   <a href="https://wa.me/+233541943017">Chat Me</a>
                 </div>
                 <div className="contact_info_box">
-                  <AiFillInstagram />
+                  <AiFillInstagram  className='contact_icon'/>
                   <h3>Instagram</h3>
                   <h2>dzemandy_ui/ux</h2>
-                 <a href="/">Follow Me</a>
+                 <a href="https://instagram.com/dzemandy_uiux?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr">Follow Me</a>
                 </div>
             </div>
           </div>

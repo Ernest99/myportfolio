@@ -54,11 +54,11 @@
 }
 .s-details p{
     
-    color: transparent;
+    color: #fff !important;
     font-family: 'outfitRegular';
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text;
     background-clip: text;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    background-image: linear-gradient(to right, #ccc, #333, #ccc); */
     margin-top: 20px;
 }
 @media (max-width: 689px){
