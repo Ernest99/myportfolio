@@ -6,6 +6,7 @@ import Skills from './Skills'
 import Service from './Service'
 import Project from './Project'
 import Contact from './Contact'
+import Footer from './Footer'
 
 
 const Header = () => {
@@ -18,6 +19,7 @@ const Header = () => {
           <Service/>
           <Project/>
           <Contact/>
+          <Footer/>
       </header>
     </div>
   )

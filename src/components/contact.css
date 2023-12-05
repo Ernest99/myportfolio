@@ -63,6 +63,7 @@ textarea{
     border-radius: 3px;
     outline: none;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .contact_info{
@@ -88,4 +89,15 @@ textarea{
 }
 .contact_info_box a{
     color: #fff;
+}
+@media (max-width: 689px){
+    
+    .item{
+        width: 100%;
+    }
+    .contact_items{
+        flex-direction: column;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
 }

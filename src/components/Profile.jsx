@@ -25,7 +25,7 @@ const Profile = () => {
                  initial={{ opacity: 0 }}
                  whileInView={{ opacity: 1 }}
                  transtion = {transtion}
-               >I Design Stunning, <br /> brands, App and Web Interfaces.</motion.h1>
+               >I create captivating brands,innovative apps  <br/>and visually appealing web interfaces.</motion.h1>
               {/* <Btn text='Request CV' icon={<HiDownload/>}/> */}
             </div>
         </div>
