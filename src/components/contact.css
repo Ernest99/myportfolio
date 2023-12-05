@@ -100,4 +100,7 @@ textarea{
         gap: 30px;
         flex-wrap: wrap;
     }
+    .contact_container{
+        height: 150vh;
+    }
 }

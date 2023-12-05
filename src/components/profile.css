@@ -78,3 +78,8 @@ img{
 .cv_btn a {
     color: #ccc;
 }
+@media (max-width: 689px){
+    .profile h1{
+        font-size: 1.8rem;
+    }
+}
